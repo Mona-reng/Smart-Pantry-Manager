@@ -4,41 +4,92 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:padding="16dp"
-    android:background="#F5F7F2">
+    android:padding="24dp"
+    android:background="#10251B">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SMART PANTRY"
+        android:textSize="13sp"
+        android:textStyle="bold"
+        android:textColor="#A8D5A2"
+        android:letterSpacing="0.15"
+        android:layout_marginTop="24dp" />
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Smart Pantry Manager"
-        android:textSize="26sp"
+        android:text="Fresh choices.\nSmarter living."
+        android:textSize="32sp"
         android:textStyle="bold"
-        android:textColor="#24452C"
-        android:paddingBottom="20dp"/>
+        android:textColor="#FFFFFF"
+        android:lineSpacingExtra="4dp"
+        android:layout_marginTop="12dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Manage your ingredients and discover your next meal."
+        android:textSize="15sp"
+        android:textColor="#C1D0C5"
+        android:lineSpacingExtra="3dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="28dp" />
 
     <Button
         android:id="@+id/btnMyPantry"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="My Pantry"/>
+        android:layout_height="60dp"
+        android:text="My Pantry"
+        android:textAllCaps="false"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:textColor="#10251B"
+        android:backgroundTint="#A8D5A2"
+        android:layout_marginBottom="12dp" />
 
     <Button
         android:id="@+id/btnAddIngredient"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="+ Add Ingredient"/>
+        android:layout_height="60dp"
+        android:text="+  Add Ingredient"
+        android:textAllCaps="false"
+        android:textSize="16sp"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#315B42"
+        android:layout_marginBottom="12dp" />
 
     <Button
         android:id="@+id/btnSuggestedRecipes"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Suggested Recipes"/>
+        android:layout_height="60dp"
+        android:text="Suggested Recipes"
+        android:textAllCaps="false"
+        android:textSize="16sp"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#315B42"
+        android:layout_marginBottom="12dp" />
 
     <Button
         android:id="@+id/btnSettings"
         android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="Settings"
+        android:textAllCaps="false"
+        android:textSize="16sp"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#315B42" />
+
+    <TextView
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Settings"/>
+        android:text="ORGANISE  •  COOK  •  ENJOY"
+        android:textSize="11sp"
+        android:textStyle="bold"
+        android:textColor="#A8D5A2"
+        android:gravity="center"
+        android:letterSpacing="0.12"
+        android:layout_marginTop="32dp" />
 
 </LinearLayout>
-

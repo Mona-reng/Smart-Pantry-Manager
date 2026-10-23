@@ -1,49 +1,79 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
+<ScrollView
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
-    android:padding="16dp"
-    android:background="#F5F7F2">
+    android:fillViewport="true"
+    android:background="#14251B">
 
-    <TextView
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Suggested Recipes"
-        android:textSize="26sp"
-        android:textStyle="bold"
-        android:textColor="#24452C"
-        android:paddingBottom="8dp" />
+        android:orientation="vertical"
+        android:padding="24dp">
 
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Discover meals you can make with ingredients in your pantry."
-        android:textSize="16sp"
-        android:textColor="#555555"
-        android:paddingBottom="16dp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="SMART COOKING"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            android:letterSpacing="0.15"
+            android:textColor="#B7D99A"
+            android:layout_marginTop="12dp" />
 
-    <Button
-        android:id="@+id/btnFindRecipes"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Find Recipes" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="What's cooking?"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:layout_marginTop="8dp" />
 
-    <TextView
-        android:id="@+id/txtRecipeResults"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Tap Find Recipes to discover meals."
-        android:textSize="16sp"
-        android:textColor="#24452C"
-        android:paddingTop="16dp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Discover meals you can make with ingredients in your pantry."
+            android:textSize="15sp"
+            android:textColor="#C3CEC5"
+            android:lineSpacingExtra="4dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="24dp" />
 
-    <Button
-        android:id="@+id/btnBackHome"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Back to Home"
-        android:layout_marginTop="16dp" />
+        <Button
+            android:id="@+id/btnFindRecipes"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:text="Find Recipes"
+            android:textAllCaps="false"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="#14251B"
+            android:backgroundTint="#B7D99A" />
 
-</LinearLayout>
+        <TextView
+            android:id="@+id/txtRecipeResults"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tap Find Recipes to discover meals."
+            android:textSize="16sp"
+            android:textColor="#FFFFFF"
+            android:lineSpacingExtra="6dp"
+            android:padding="18dp"
+            android:layout_marginTop="20dp"
+            android:background="#20382A" />
+
+        <Button
+            android:id="@+id/btnBackHome"
+            android:layout_width="match_parent"
+            android:layout_height="54dp"
+            android:text="Back to Home"
+            android:textAllCaps="false"
+            android:textSize="16sp"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#2C4937"
+            android:layout_marginTop="20dp" />
+
+    </LinearLayout>
+</ScrollView>

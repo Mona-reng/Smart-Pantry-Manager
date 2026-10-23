@@ -4,29 +4,57 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:padding="16dp"
-    android:background="#F5F7F2">
+    android:padding="20dp"
+    android:background="#14251B">
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="My Pantry"
-        android:textSize="26sp"
+        android:text="MY PANTRY"
+        android:textSize="12sp"
         android:textStyle="bold"
-        android:textColor="#24452C"
-        android:paddingBottom="12dp" />
+        android:letterSpacing="0.15"
+        android:textColor="#B7D99A"
+        android:paddingTop="12dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Your ingredients"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        android:paddingTop="6dp"
+        android:paddingBottom="8dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Everything you have, all in one place."
+        android:textSize="14sp"
+        android:textColor="#C3CEC5"
+        android:paddingBottom="16dp" />
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/recyclerPantry"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1"
-        android:layout_marginTop="8dp" />
+        android:layout_marginTop="4dp"
+        android:clipToPadding="false"
+        android:paddingBottom="12dp" />
 
     <Button
         android:id="@+id/btnBackHome"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Back to Home" />
+        android:layout_height="56dp"
+        android:text="Back to Home"
+        android:textAllCaps="false"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:textColor="#14251B"
+        android:backgroundTint="#B7D99A"
+        android:layout_marginTop="12dp" />
 
 </LinearLayout>
+
