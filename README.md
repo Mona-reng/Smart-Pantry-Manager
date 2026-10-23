@@ -4,7 +4,6 @@
 https://github.com/Mona-reng/Smart-Pantry-Manager.git
 
 ## 1. Project Overview
-
 Smart Pantry Manager is an Android application designed to help users manage ingredients stored in their pantry and discover meal ideas based on available ingredients.
 
 The application provides a simple interface for managing pantry items, viewing saved ingredients, editing ingredient information, and generating recipe suggestions. It also includes a Settings screen for basic application information.
